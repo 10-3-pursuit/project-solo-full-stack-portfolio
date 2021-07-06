@@ -29,7 +29,7 @@ You must implement all of the user stories and acceptance criteria below. After 
 
 #### Back-end
 
-- An app that uses `express`, `dotenv`, `cors`
+- An app that uses `express`, and `pg-promise`, where it uses a `postgres` database
 - The app is deployed on heroku and can be accessed from your React front-end app and Postman
 
 Other files and folders required for full functionality of your app
