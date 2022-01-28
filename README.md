@@ -1,5 +1,11 @@
 # Full Stack Store App
 
+You will be building a store filled with products! Choose any theme you want:
+
+- Soup
+- Collectable rubber bands
+- etc. 
+
 ## Overview
 
 - Use express & postgres/pg-promise to build a back-end
