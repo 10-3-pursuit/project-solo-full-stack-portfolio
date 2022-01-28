@@ -4,7 +4,9 @@ You will be building a store filled with products! Choose any theme you want:
 
 - Soup
 - Collectable rubber bands
-- etc. 
+- $1000 Store (no items worth less than $1000)
+
+Or anything else you want
 
 ## Overview
 
