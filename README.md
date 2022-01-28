@@ -14,15 +14,14 @@ You must implement all of the user stories and acceptance criteria below. After 
 ### User Stories
 
 1. A user can see a list of products to buy
-1. A user can click on the new button that takes me to a new form that lets the user create a new product
-1. After clicking the submit button on the new form, it takes the user back to the index page
 1. A user can click on a product and see a detailed view
-1. A user can, from the detailed view, delete a product
-1. A user can, from the detailed view click on an edit button and see an edit form
-1. After clicking the submit button on the edit form, it will return the user back to the updated detail view
-1. A user can visit this app on the internet that uses data from the express API
-1. A user can share the link to the new page (once my apps are hosted online) and someone else will be able to see a specific view
-1. A user can view this app on a desktop or phone and it is easy to read/use (the app has some responsive design)
+1. A user can click on the new button that takes me to a new form that lets the user create a new product
+1. After clicking the submit button on the new form, it takes the user to a view that confirms the product has been created
+1. A user can click on a button to see a pre-filled edit form and edit a product
+1. After editing the product, a user is taken to a view that confirms the product has been created
+1. A user can delete a product
+1. A user can visit this app from a provided ULR on the internet that uses data from the express API
+1. Effort is present for navigation, headers, labels, colors, fonts, somewhat responsive design, confirmation/errors: A user creates a new product and can confirm that the product is created in some way (ie next view is of index page with new product present)
 1. A user can [choose one bonus below]
 
 ### Acceptance Criteria
@@ -44,6 +43,22 @@ Other files and folders required for full functionality of your app
 
 <br />
 
+The model will have, at minimum, these following attributes
+
+- `name` - a string, required
+- `description` - a string
+- `price` - a number
+- `rating` - a number between 0 and 5
+- `featured` - a boolean
+
+Consider:
+
+- adding a url for an image
+- color
+- dimensions/size
+
+Or anything else that makes sense for your store.
+
 #### Front-End
 
 1. Is deployed online (ie on Netlify)
@@ -55,20 +70,21 @@ Other files and folders required for full functionality of your app
 
 Once the apps are deployed and working as expected,
 
-- [add your links here ](https://docs.google.com/spreadsheets/d/1LcfVPhpZS7w2x9m1wnF9MY6Sk84mGYMA-9Guu9ObW-M/edit#gid=0)
+- Submit your link to Canvas immediately
+- You will not be graded until the due date/time
 
 - customize the apps to be your own app.
 
-## Bonuses - Your team MUST Implement one bonus
+## Bonuses - You MUST Implement one bonus that you have not used in a prior lab or assignment:
 
 - Use Bootstrap React Components
 - Make a second model (back-end and front-end) ie reviews
-- implement login/logout (DO NOT LOCK OUT non-logged in users from being able to see the products and product details)
+- Implement login/logout (DO NOT LOCK OUT non-logged in users from being able to see the products and product details)
   - Super Bonus - admin function - only allow admins to create/edit/delete products
-- create a simple shopping cart (add/remove products, front-end only)
-- allow image upload rather than links
-- implement sort product functionality (Front-end? Back-end? Up to you and your team to discuss pros and cons and make a choice)
-- another bonus feature approved by your instructor
+- Create a simple shopping cart (add/remove products, front-end only)
+- Allow image upload rather than links
+- Implement sort product functionality (Front-end? Back-end? Up to you and your team to discuss pros and cons and make a choice)
+- Another bonus feature approved by your instructor
 
 ## Example Stores
 
@@ -88,6 +104,20 @@ Once the apps are deployed and working as expected,
 <hr />
 <br />
 
-## Canvas Rubric
+## Grading:
 
-![](./assets/canvas-rubric.png)
+You will be graded on your implementation of the above user stories
+
+AND
+
+You will have a 1:1 meeting with an instructor to demonstrate your apps functionality AND walk through some code:
+
+- On the front end
+- On the back end
+- A follow up portion of your app chosen by your instructor
+
+Also, you will be given some feedback on your presentation skills by IR/LPD
+
+## Academic Integrity
+
+Your work should reflect your current technical ability/knowledge
