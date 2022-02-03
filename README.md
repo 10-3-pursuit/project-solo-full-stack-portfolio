@@ -26,7 +26,7 @@ You must implement all of the user stories and acceptance criteria below. After 
 1. A user can click on the new button that takes me to a new form that lets the user create a new product
 1. After clicking the submit button on the new form, it takes the user to a view that confirms the product has been created
 1. A user can click on a button to see a pre-filled edit form and edit a product
-1. After editing the product, a user is taken to a view that confirms the product has been created
+1. After editing the product, a user is taken to a view that confirms the product has been updated
 1. A user can delete a product
 1. A user can visit this app from a provided ULR on the internet that uses data from the express API
 1. Effort is present for navigation, headers, labels, colors, fonts, somewhat responsive design, confirmation/errors: A user creates a new product and can confirm that the product is created in some way (ie next view is of index page with new product present)
@@ -91,7 +91,7 @@ Once the apps are deployed and working as expected,
   - Super Bonus - admin function - only allow admins to create/edit/delete products
 - Create a simple shopping cart (add/remove products, front-end only)
 - Allow image upload rather than links
-- Implement sort product functionality (Front-end? Back-end? Up to you and your team to discuss pros and cons and make a choice)
+- Implement sort product functionality (Front-end? Back-end? It will be up to you to determine pros and cons and make a choice)
 - Another bonus feature approved by your instructor
 
 ## Example Stores
