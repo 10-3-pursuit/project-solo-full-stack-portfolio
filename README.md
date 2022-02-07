@@ -15,6 +15,15 @@ Or anything else you want
 - Connect the back-end and front-end
 - Deploy the project online
 
+## Sumission
+
+- Be sure to have a README.md for this project. In the README.md
+ - At minimum, include links to your live front-end and back-end
+- Submit this repository URL to Canvas
+
+
+- Follow the instructions for creating a video walkthrough of your app and submit the recording to Canvas
+
 ## User Stories, Acceptance Criteria and Code Quality Rubric
 
 You must implement all of the user stories and acceptance criteria below. After those are completed, look at and implement as many of the stretch features as you want to.
