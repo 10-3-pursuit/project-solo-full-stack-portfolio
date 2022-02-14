@@ -18,8 +18,8 @@ Or anything else you want
 ## Sumission
 
 - Be sure to have a README.md for this project. In the README.md
- - At minimum, include links to your live front-end and back-end
-- Submit this repository URL to Canvas
+  - At minimum, include links to your live front-end and back-end
+  - Submit the GitHub mono-repository URL to Canvas
 
 
 - Follow the instructions for creating a video walkthrough of your app and submit the recording to Canvas
