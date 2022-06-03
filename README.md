@@ -26,7 +26,7 @@ Or anything else you want
 
 ## User Stories, Acceptance Criteria and Code Quality Rubric
 
-You must implement all of the user stories and acceptance criteria below. After those are completed, look at and implement as many of the stretch features as you want to.
+You must implement a minimum of 6 out of 10 of the user stories AND you must implement at least one bonus (for a total of 7/10) that follows the acceptance criteria below. If you have completed all 10 features, continue to strive to make your app even better. This app can server as a first portfolio project if you polish it enough.
 
 ### User Stories
 
