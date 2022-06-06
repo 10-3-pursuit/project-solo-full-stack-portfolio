@@ -37,7 +37,7 @@ You must implement a minimum of 6 out of 10 of the user stories AND you must imp
 1. A user can click on a button to see a pre-filled edit form and edit a product
 1. After editing the product, a user is taken to a view that confirms the product has been updated
 1. A user can delete a product
-1. A user can visit this app from a provided ULR on the internet that uses data from the express API
+1. A user can visit this app from a provided URL on the internet that uses data from the express API
 1. Effort is present for navigation, headers, labels, colors, fonts, somewhat responsive design, confirmation/errors: A user creates a new product and can confirm that the product is created in some way (ie next view is of index page with new product present)
 1. A user can [choose one bonus below]
 
