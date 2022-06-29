@@ -26,7 +26,7 @@ Or anything else you want
 
 ## User Stories, Acceptance Criteria and Code Quality Rubric
 
-You must implement a minimum of 6 out of 10 of the user stories AND you must implement at least one bonus (for a total of 7/10) that follows the acceptance criteria below. If you have completed all 10 features, continue to strive to make your app even better. This app can server as a first portfolio project if you polish it enough.
+
 
 ### User Stories
 
@@ -38,15 +38,25 @@ You must implement a minimum of 6 out of 10 of the user stories AND you must imp
 1. After editing the product, a user is taken to a view that confirms the product has been updated
 1. A user can delete a product
 1. A user can visit this app from a provided URL on the internet that uses data from the express API
+
 1. Effort is present for navigation, headers, labels, colors, fonts, somewhat responsive design, confirmation/errors: A user creates a new product and can confirm that the product is created in some way (ie next view is of index page with new product present)
 1. A user can [choose one bonus below]
 
 ### Acceptance Criteria
 
+### General
+- Your own GitHub repository with your code uploded to it. The file structure of your project should match what you learned in the class.
+- GitHub readme file that has installation instrctions for your application.
+- Daily commits to GitHub.
+- The project has a coherent theme and narrative.
+
+
 #### Back-end
 
 - An app that uses `express`, and `pg-promise`, where it uses a `postgres` database
 - The app is deployed on heroku and can be accessed from your React front-end app and Postman
+- The back-end follows a RESTful pattern
+
 
 Other files and folders required for full functionality of your app
 
@@ -79,9 +89,16 @@ Or anything else that makes sense for your store.
 #### Front-End
 
 1. Is deployed online (ie on Netlify)
-1. Allows users to perform full CRUD and uses all routes built for the back-end
+1. Allows users to perform full CRUD and uses all routes built for the back-end.
+1. The application follows a RESTful pattern.
 
-## Deployment
+#### Interview Requirements
+
+1. In a meeting with an instructor or volunteer, you should be able to describe the application's theme and purpose and relate your application to your interests or personal narrative.
+1. In a meeting with an instructor or volunteer, you should be able to demonstrate a front-end feature and describe the code in technical terms.
+1. In a meeting with an instructor or volunteer, you should be able to demonstrate a back-end feature and describe the code in technical terms.
+
+## Deployment Details
 
 [Use this template](https://github.com/joinpursuit/pern-final-project-template) - deploy the boilerplate app as the first thing you do.
 
@@ -90,7 +107,7 @@ Once the apps are deployed and working as expected,
 - Submit your link to Canvas immediately
 - You will not be graded until the due date/time
 
-- customize the apps to be your own app.
+- Customize the apps to be your own app.
 
 ## Bonuses - You MUST Implement one bonus that you have not used in a prior lab or assignment:
 
@@ -133,7 +150,7 @@ You will have a 1:1 meeting with an instructor to demonstrate your apps function
 - On the back end
 - A follow up portion of your app chosen by your instructor
 
-Also, you will be given some feedback on your presentation skills by IR/LPD
+
 
 ## Academic Integrity
 
