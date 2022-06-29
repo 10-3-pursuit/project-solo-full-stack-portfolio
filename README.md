@@ -1,12 +1,16 @@
 # Full Stack Store App
 
-You will be building a store filled with products! Choose any theme you want:
+This application should adhere to the guidelines and rubric presented in the [Full Stack Personal Portfolio Project](https://github.com/pursuit-curriculum/project-full-stack-portfolio)
+
+This readme is an example of how one could implement all the features required for the project when the theme is an online store. 
+
+The store will filled with products. Choose any theme you want:
 
 - Soup
 - Collectable rubber bands
 - $1000 Store (no items worth less than $1000)
 
-Or anything else you want
+Or anything else you want.
 
 ## Overview
 
@@ -14,6 +18,7 @@ Or anything else you want
 - Use create-react-app to build a front-end
 - Connect the back-end and front-end
 - Deploy the project online
+- Have a 1:1 interview with an instructor
 
 ## Sumission
 
@@ -22,13 +27,12 @@ Or anything else you want
   - Submit the GitHub mono-repository URL to Canvas
 
 
-- Follow the instructions for creating a video walkthrough of your app and submit the recording to Canvas
-
 ## User Stories, Acceptance Criteria and Code Quality Rubric
 
 
-
 ### User Stories
+
+The user stories encompass both back-end and front-end implementation:
 
 1. A user can see a list of products to buy
 1. A user can click on a product and see a detailed view
@@ -39,7 +43,7 @@ Or anything else you want
 1. A user can delete a product
 1. A user can visit this app from a provided URL on the internet that uses data from the express API
 
-1. Effort is present for navigation, headers, labels, colors, fonts, somewhat responsive design, confirmation/errors: A user creates a new product and can confirm that the product is created in some way (ie next view is of index page with new product present)
+
 1. A user can [choose one bonus below]
 
 ### Acceptance Criteria
@@ -49,6 +53,15 @@ Or anything else you want
 - GitHub readme file that has installation instrctions for your application.
 - Daily commits to GitHub.
 - The project has a coherent theme and narrative.
+
+### Overall Project Quality
+
+You will also be graded on:
+- Code quality
+- Application design
+- UX/UI
+- Application presentation
+- Technical innovation
 
 
 #### Back-end
@@ -102,23 +115,26 @@ Or anything else that makes sense for your store.
 
 [Use this template](https://github.com/joinpursuit/pern-final-project-template) - deploy the boilerplate app as the first thing you do.
 
-Once the apps are deployed and working as expected,
+Once the apps are deployed and working as expected:
 
 - Submit your link to Canvas immediately
 - You will not be graded until the due date/time
 
-- Customize the apps to be your own app.
 
 ## Bonuses - You MUST Implement one bonus that you have not used in a prior lab or assignment:
 
-- Use Bootstrap React Components
-- Make a second model (back-end and front-end) ie reviews
-- Implement login/logout (DO NOT LOCK OUT non-logged in users from being able to see the products and product details)
-  - Super Bonus - admin function - only allow admins to create/edit/delete products
-- Create a simple shopping cart (add/remove products, front-end only)
-- Allow image upload rather than links
-- Implement sort product functionality (Front-end? Back-end? It will be up to you to determine pros and cons and make a choice)
-- Another bonus feature approved by your instructor
+- Use Bootstrap or Bootstrap React Components.
+- Make a second model (back-end and front-end) ie reviews.
+- Implement middleware as part of your back-end application that validates for particular values during create or update.
+- Use query parameters to filter your products by different fields or qualities.
+- Allow user to save favorites by storing them in `local storage`.
+- Allow users to see a component that has 5 of the most recently viewed items, store them in local storage, do not allow for duplicates.
+- Implement login/logout (DO NOT LOCK OUT non-logged in users from being able to see the products and product details).
+  - Super Bonus - admin function - only allow admins to create/edit/delete products.
+- Create a simple shopping cart (add/remove products, front-end only).
+- Allow image upload rather than links.
+- Implement sort product functionality (Front-end? Back-end? It will be up to you to determine pros and cons and make a choice).
+- Another bonus feature approved by your instructor.
 
 ## Example Stores
 
