@@ -2,111 +2,71 @@
 
 This project is designed to test all of the skills you've learned so far. By the end of this project, you should have a portfolio-ready project you can share on your resume as well as with potential employers.
 
-This project will:
+## Project scoring
 
-- Have a deployed back-end application.
-- Have a deployed front-end application.
-- Have a database with one or more tables.
-- Have a theme and unique product design.
+This project has five different parts on which you will be graded. Each part is weighted differently.
 
-## Success criteria
+- 70% of the project is scored on **completion**.
+- 20% of the project is scored through the **mastery rubric**.
+- 10% of the project is scored through **stretch goals**.
 
-47 points can be received as part of this project. A minimum of 26 points must be attained to pass this project. These points are spread across specific features and requirements as well as a rubric. A list of each feature and the rubric is included below.
+In total, you must receive at least 70% to complete this project. For example, you could attain 55% of points through the completion requirements, 10% of points through the mastery rubric, and 5% of points through the stretch goals.
 
-In addition to attaining at least 26 points, you must also complete one or more features or tasks decided on by you and your instructor(s). These additional features and tasks are explained in more detail below.
+### Completion
 
-### Specific requirements
-
-22 specific requirements should be completed as part of this project. Each of the requirements below scores 1 point.
+To complete this project, you will need to build a full-stack application that meets the following feature and technical requirements.
 
 #### Overall requirements
 
-1. Create a GitHub repository and upload your code to it. The file structure of your project should match what you learned in class.
-1. Your GitHub repository should have a `readme.md` file with installation instructions for your application.
+1. Create a GitHub repository for both the front-end and back-end applications and upload your code to it.
+1. Both the front-end and back-end applications should be successfully deployed to the web.
+1. Your front-end repository should have a `readme.md` file with setup instructions for your application.
+   - Your readme should also include links to your back-end GitHub repository, both of your deployed URLs, and a link to the Trello board you used to manage your work.
 1. Your project should have a coherent theme and narrative.
-1. Your front-end and back-end applications should be deployed to the web and function as they would on a local machine.
 
-#### Back-end application requirements
+#### Back-end feature requirements
 
-5. You must have at least one table as part of your project. The table must have at least 5 fields. There must be at least three different data types among those fields.
-1. You must handle errors, both `404` and otherwise, as part of your back-end application.
-1. You must make at least one Git commit each day of the project that you have class. For classes that are scheduled for a full day, you must make at least two commits.
-1. You must make a "read" route that returns all data from a resource as part of your back-end application.
-1. You must make a "read" route that returns a single resource as part of your back-end application.
-1. You must make a "create" route that creates a new resource as part of your back-end application.
-1. You must make an "update" route that updates a single resource as part of your back-end application.
-1. You must make a "destroy" route that destroys a single resource as part of your back-end application.
-1. All of your back-end routes must follow a RESTful pattern, as you learned in your class.
+To complete the back-end application, you will need to build a RESTful server that performs CRUD actions on a single resource.
 
-#### Front-end application requirements
+5. Your server should incorporate at least one table that includes:
+   - A primary key
+   - At least 7 total fields
+   - At least 4 different data types are used among those fields
+1. Your table should have at least two constraints, which can include `DEFAULT` values.
+1. A route exists to create new resources.
+1. A route exists to read all resources.
+1. A route exists to read a single resource.
+1. A route exists to update a single resource.
+1. A route exists to delete a single resource.
+1. An appropriate "Not Found" response is given when a route is requested that does not match the created routes.
+1. All routes follow RESTful conventions regarding naming and status code responses.
 
-14. You must make an "index" page that shows all data from a resource as part of your front-end application.
-1. You must make a "show" page that shows a single resource as part of your front-end application.
-1. You must make a "new" page that allows a user to create a new resource through a form as part of your front-end application.
-1. You must make an "update" page that allows a user to update an existing resource as part of your front-end application.
-1. You must make a way for a user to "destroy" a single resource as part of your front-end application.
-1. All of your front-end routes must follow a RESTful pattern, as you learned in your class.
+#### Front-end feature requirements
 
-#### Interview requirements
+To complete the front-end application, you will need to build a React application that allows for CRUD operations to be performed on a single resource. You will also need to display the data thoughtfully and clearly.
 
-21. In a meeting with an instructor or volunteer, you should be able to describe the application's theme and purpose and relate your application to your interests or personal narrative.
-1. In a meeting with an instructor or volunteer, you should be able to demonstrate a front-end feature and describe the code in technical terms.
-1. In a meeting with an instructor or volunteer, you should be able to demonstrate a back-end feature and describe the code in technical terms.
+14. All pages should include the same navigation bar, which includes the name of the application and a button to create a new resource.
+1. You should have an Index page that presents all of the resources in your database table.
+1. After clicking on a single resource, you should be brought to a Show page which includes more detailed information about the specific resource.
+1. When the button in the navigation bar to create a new resource is clicked, you should be brought to a new page that includes a form to create a new resource.
+1. Forms should be properly labeled and the type of inputs should be properly set. For example, an input that requires a number should have type number, not text.
+1. When a new resource form is submitted, the resource should be created in the database and the user should be brought to that new resource's Show page.
+1. On the resource's Show page, there should be a button to edit the current resource. When clicked, the user is brought to a form page with data already filled in that can be edited.
+1. When an edited resource form is submitted, the resource should be edited in the database and the user should be brought to that new resource's Show page.
+1. On the resource's Show page, there should be a button to delete the current show page. When clicked, a message is displayed that asks the user if they are sure they want to delete the resource. If the user confirms, the resource is deleted and the user is brought to the Index page.
+1. Using the resource's data, perform a calculation or create a useful feature (sort, filter, infinite-scroll, image carousel) that can be performed on the front-end application and displayed to the user that has not been demonstrated in class. For example, if your app has a list of products, load the first 10 and when the user scrolls to the bottom the next ten are loaded. Your sort or filter feature may take more than one argument and/or include being able to sort in ascending or descending order.
 
-### Project rubric
+### Mastery rubric
 
-In addition to the specific requirements, you should aim to score _Proficient_ on all of the criteria listed below. Each rating on the scale, from Developing to Exemplary, is worth 1 point.
+This section of the project is designed to measure your increasing skill at writing good code and following best practices.
 
-#### Code quality
+To view components of the mastery rubric, view the appropriate assignment on Canvas.
 
-| Rating     | Points | Description                                                                                                                                                                                                                               |
-| ---------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Novice     | 0      | Code infrequently or rarely uses well-named variables, is appropriately indented, or follows best-practices. Code is generally very messy and difficult to understand.                                                                    |
-| Developing | 1      | Code uses well-named variables, is appropriately indented, and follows best-practices in some but not all files. Some code may be duplicated across routes or on the front-end. The code is of an acceptable quality for a new developer. |
-| Proficient | 2      | Code uses well-named variables, is appropriately indented, and follows best-practices in all files. Some code may be duplicated across routes or on the front-end. The code is of good quality for a new developer.                       |
-| Exemplary  | 3      | Code uses well-named variables, is appropriately indented, and follows best-practices in all files. Code does not repeat itself. The code quality is representative of a skilled coder.                                                   |
+### Stretch goals
 
-#### Application design
+This section of the project measures your ability to go above and beyond in creating your project. To score points in this section, you should incorporate a feature, technology, or skill not explicitly required by the project instructions.
 
-| Rating     | Points | Description                                                                                                                                             |
-| ---------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Novice     | 0      | The web application does not look professional or lacks any clear CSS application.                                                                      |
-| Developing | 1      | The web application looks professional, although some pages or parts of pages lack any clear style.                                                     |
-| Proficient | 2      | The web application looks professional. The application uses color and effects sensibly.                                                                |
-| Exemplary  | 3      | The web application looks professional. The application uses color and effects sensibly. The design or layout goes above and beyond in some unique way. |
-
-#### User experience and interface
-
-| Rating     | Points | Description                                                                                                                                                                                                               |
-| ---------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Novice     | 0      | The application is difficult to navigate. It is not possible to perform all CRUD actions for a single resource from the website, even with assistance.                                                                    |
-| Developing | 1      | Parts of the application are easy to navigate, but others require some visual searching or some specialized knowledge. It is possible to perform all CRUD actions for a single resource from just looking at the website. |
-| Proficient | 2      | The web application is easy to navigate. It's clear how to perform all CRUD actions for a single resource from just looking at the website.                                                                               |
-| Exemplary  | 3      | The web application is easy to navigate. It's clear how to perform all CRUD actions for a single resource from just looking at the website. The overall feel of the application goes above and beyond.                    |
-
-#### Application presentation
-
-| Rating     | Points | Description                                                                                                                                                                                                                                  |
-| ---------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Novice     | 0      | The Fellow is unable to describe why they wanted to create their project. They come across as nervous or uncertain of how to best demo their application.                                                                                    |
-| Developing | 1      | The Fellow describes their project and relates it to themselves, showcasing their interests or passion. They come across as nervous or uncertain of how to best demo their application.                                                      |
-| Proficient | 2      | The Fellow describes their project and relates it to themselves, showcasing their interests or passion. They speak calmly and professionally throughout their demo, maintaining a confident tone.                                            |
-| Exemplary  | 3      | The Fellow describes their project and relates it to themselves, showcasing their interests or passion. They speak calmly and professionally throughout their demo, maintaining a confident tone. Their presentation skills are exceptional. |
-
-#### Technical innovation
-
-| Rating     | Points | Description                                                                                                                                            |
-| ---------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Novice     | 0      | The student has only incorporated technologies used in class and has not added any features outside of what was demonstrated to them.                  |
-| Developing | 1      | The student has one new technology into their application or has built a feature not previously seen in the classroom.                                 |
-| Proficient | 2      | The student has incorporated multiple new technologies into their application or has built a number of features not previously seen in the classroom.  |
-| Exemplary  | 3      | The student has incorporated multiple new technologies into their application and has built a number of features not previously seen in the classroom. |
-
-### Additional features or tasks
-
-Each Fellow must also define _one or more_ additional features or tasks they would like to add to their application. These features or tasks must be approved by an instructor and should make a meaningful improvement to your application. Below is a list of example features that could apply to any application. You may choose from the list below or come up with features or tasks that are more relevant to your specific application.
-
-> **Note:** These features _do count_ for the rubric category "technical innovation", detailed above.
+When you submit your pull request, _make sure to include a description of any stretch goals you implemented._ You may choose from the list below or come up with features or tasks that are more relevant to your specific implementation of the project.
 
 - Display errors to your user when they incorrectly fill out a form attempting to create or update a resource.
 - Add a one-to-many table relationship to your database.
@@ -117,9 +77,11 @@ Each Fellow must also define _one or more_ additional features or tasks they wou
 - Allow for a list of "favorite" resources that are stored locally through [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
 - Make your application responsive to different kinds of devices.
 
+Points will be allocated in this section at the discretion of the instructor.
+
 ## Getting started
 
-_Do not_ fork this repository. Instead, create your repository on GitHub and submit the URL directly to Canvas.
+_Do not_ fork this repository. Instead, create your repositories on GitHub and submit the URL directly to Canvas.
 
 Then, follow the specifications above to create your application. Work with your instructors to approve your features before you begin working on them.
 
