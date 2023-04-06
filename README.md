@@ -39,13 +39,13 @@ To complete the back-end application, you will need to build a RESTful server th
 1. A route exists to update a single resource.
 1. A route exists to delete a single resource.
 1. An appropriate "Not Found" response is given when a route is requested that does not match the created routes.
-1. All routes follow RESTful conventions regarding naming and status code responses.
+
 
 #### Front-end feature requirements
 
 To complete the front-end application, you will need to build a React application that allows for CRUD operations to be performed on a single resource. You will also need to display the data thoughtfully and clearly.
 
-14. All pages should include the same navigation bar, which includes the name of the application and a button to create a new resource.
+13. All pages should include the same navigation bar, which includes the name of the application and a button to create a new resource.
 1. You should have an Index page that presents all of the resources in your database table.
 1. After clicking on a single resource, you should be brought to a Show page which includes more detailed information about the specific resource.
 1. When the button in the navigation bar to create a new resource is clicked, you should be brought to a new page that includes a form to create a new resource.
