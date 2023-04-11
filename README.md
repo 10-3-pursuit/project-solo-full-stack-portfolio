@@ -4,7 +4,7 @@ This project is designed to test all of the skills you've learned so far. By the
 
 ## Project scoring
 
-This project has five different parts on which you will be graded. Each part is weighted differently.
+This project has three different parts on which you will be graded. Each part is weighted differently.
 
 - 70% of the project is scored on **completion**.
 - 20% of the project is scored through the **mastery rubric**.
@@ -40,7 +40,6 @@ To complete the back-end application, you will need to build a RESTful server th
 1. A route exists to delete a single resource.
 1. An appropriate "Not Found" response is given when a route is requested that does not match the created routes.
 
-
 #### Front-end feature requirements
 
 To complete the front-end application, you will need to build a React application that allows for CRUD operations to be performed on a single resource. You will also need to display the data thoughtfully and clearly.
@@ -52,9 +51,10 @@ To complete the front-end application, you will need to build a React applicatio
 1. Forms should be properly labeled and the type of inputs should be properly set. For example, an input that requires a number should have type number, not text.
 1. When a new resource form is submitted, the resource should be created in the database and the user should be brought to that new resource's Show page.
 1. On the resource's Show page, there should be a button to edit the current resource. When clicked, the user is brought to a form page with data already filled in that can be edited.
-1. When an edited resource form is submitted, the resource should be edited in the database and the user should be brought to that new resource's Show page.
+1. When an edited resource form is submitted, the resource should be edited in the database and the user should be brought to that existing resource's Show page.
 1. On the resource's Show page, there should be a button to delete the current show page. When clicked, a message is displayed that asks the user if they are sure they want to delete the resource. If the user confirms, the resource is deleted and the user is brought to the Index page.
-1. Using the resource's data, perform a calculation or create a useful feature (sort, filter, infinite-scroll, image carousel) that can be performed on the front-end application and displayed to the user that has not been demonstrated in class. For example, if your app has a list of products, load the first 10 and when the user scrolls to the bottom the next ten are loaded. Your sort or filter feature may take more than one argument and/or include being able to sort in ascending or descending order.
+1. Using the resource's data, perform a calculation or create a useful feature (e.g., sort, filter, infinite-scroll) that can be performed on the front-end application and displayed to the user that has not been demonstrated in class.
+   - For example, if your app has a list of products, load the first 10 and when the user scrolls to the bottom the next ten are loaded. Your sort or filter feature may take more than one argument and/or include being able to sort in ascending or descending order.
 
 ### Mastery rubric
 
