@@ -16,7 +16,13 @@ Please choose one of two options:
 
 1. If you are not using authentication then `fork` and `clone` the [express-server-starter-db](https://github.com/10-3-pursuit/express-server-starter-db) and the [react-basic-starter](https://github.com/10-3-pursuit/react-basic-starter/tree/main)
 
-Then, follow the specifications below to create your application. Work with your instructors to approve your features before you begin working on them.
+1. Choose an differentiating idea for your application.
+
+1. Create User Stories
+
+1. Create an ERD of your application
+
+After apporval from your instructors, follow the specifications below to create your application.
 
 #### Overall requirements
 
