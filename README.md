@@ -70,7 +70,7 @@ To complete the frontend, you will need to build a React application that allows
 
 This section measures your ability to go above and beyond in creating your application. To score points in this section, you should incorporate a feature, technology, or skill you have not tried before and that is not explicitly required by these instructions.
 
-When you submit your pull request, _make sure to include a description of any stretch goals you implemented._ You may choose from the list below or come up with features or tasks that are more relevant to your specific implementation of the project.
+When you submit your pull request, _make sure to include a description of any stretch goals you implemented._ You may choose from the list below or come up with features or tasks that are more relevant to your application.
 
 - Display errors to your user when they incorrectly fill out a form attempting to create or update a resource.
 - Add a one-to-many table relationship to your database.
