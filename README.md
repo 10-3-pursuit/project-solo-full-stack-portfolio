@@ -16,7 +16,7 @@ Please choose one of two options:
 
 1. If you are not using authentication then `fork` and `clone` the [express-server-starter-db](https://github.com/10-3-pursuit/express-server-starter-db) and the [react-basic-starter](https://github.com/10-3-pursuit/react-basic-starter/tree/main)
 
-1. Choose a differentiating idea for your application.
+1. Choose a differentiating idea for your application
 
 1. Create User Stories
 
