@@ -93,3 +93,5 @@ _Make sure to include a description of any differentiating features you implemen
 ## Store App
 
 If you are struggling to find an idea, you are welcome to create an [Online Store App](./README_STORE_APP.md).
+
+Good Luck. You Got This!
