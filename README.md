@@ -78,7 +78,6 @@ _Make sure to include a description of any differentiating features you implemen
 - CSS Framework such as Bootstrap or Tailwind
 - Favorites Feature
 - Filtering and showing results by subject e.g. genres, tags, favorites, items in cart
-- Comments on a resource that persist in the JSON server
 - Sorting some data
 - Searching for data
 - Light Mode/Dark Mode
