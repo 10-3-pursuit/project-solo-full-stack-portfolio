@@ -56,6 +56,7 @@ To complete the backend application, you will need to build a RESTful server tha
 
 To complete the frontend, you will need to build a React application that allows for CRUD operations to be performed on a single resource. You will also need to display the data _thoughtfully_ and _clearly_.
 
+1. Use of React Router 6.2.1 is required
 1. All views should include the same navigation bar, which displays the name of the application and a button to create a new resource.
 1. You should have an Index view that presents all of the resources in your database table.
 1. After clicking on a single resource, the app should navigate to a Show view which includes more detailed information about the specific resource.
@@ -66,22 +67,28 @@ To complete the frontend, you will need to build a React application that allows
 1. When an edited resource form is submitted, the resource should be updated in the database and the app should navigate to the resource's Show view.
 1. On the resource's Show view, there should be a button to delete the current resource. When clicked, a message is displayed that asks the user if they are sure they want to delete the resource. If the user confirms, the resource is deleted and the user is brought to the Index view.
 
-### Stretch goals
+#### Differentiation goals
 
-This section measures your ability to go above and beyond in creating your application. To score points in this section, you should incorporate a feature, technology, or skill you have not tried before and that is not explicitly required by these instructions.
+This section of the project measures your ability to go above and beyond. To score points in this section, you should incorporate two features, technologies, or skills not explicitly required by the instructions.
 
-When you submit your pull request, _make sure to include a description of any stretch goals you implemented._ You may choose from the list below or come up with features or tasks that are more relevant to your application.
+_Make sure to include a description of any differentiating features you implemented inside your readme.md._ You may choose from the list below or come up with features or tasks that are more relevant to your specific implementation of the project.
 
-- Display errors to your user when they incorrectly fill out a form attempting to create or update a resource.
-- Add a one-to-many table relationship to your database.
-- Create middleware as part of your backend application that validates for particular values when a resource is being created or updated.
-- Use query parameters to filter your resource by different fields or qualities.
-- When viewing all resources, break up your resources visually onto multiple views.
-- Visually allow for interacting with a second resource from the frontend.
-- Allow for a list of "favorite" resources that are stored locally through [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
-- Make your application responsive to different kinds of devices.
+**Ideas:**
 
-Points will be allocated in this section at the discretion of the instructor.
+- CSS Framework such as Bootstrap or Tailwind
+- Favorites Feature
+- Filtering and showing results by subject e.g. genres, tags, favorites, items in cart
+- Comments on a resource that persist in the JSON server
+- Sorting some data
+- Searching for data
+- Light Mode/Dark Mode
+- Error Components
+- Designed CSS 404 Page
+- Programmatically upload and store images on Cloudinary and in your JSON as a string.
+- Integrate an external React package such as [React DnD](https://react-dnd.github.io/react-dnd/about) or [Styled Components](https://styled-components.com/) or some other package. (research carefully)
+- Use CSS Animations for your landing page and/or other views.
+- Use Chart.js or another package that will enhance the application.
+- Optionally, fetch and incorporate third party api data.
 
 ## Store App
 
