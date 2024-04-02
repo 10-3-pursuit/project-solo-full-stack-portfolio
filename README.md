@@ -75,19 +75,19 @@ _Make sure to include a description of any differentiating features you implemen
 
 **Ideas:**
 
-- CSS Framework such as Bootstrap or Tailwind
-- Favorites Feature
-- Filtering and showing results by subject e.g. genres, tags, favorites, items in cart
-- Sorting data based on a criteria
-- Creating a functional search bar
-- Light Mode/Dark Mode
-- Error Components
-- Designed CSS 404 Page
+- CSS Framework such as Bootstrap or Tailwind.
+- Favorites Feature.
+- Filtering and showing results by subject e.g. genres, tags, favorites, items in cart.
+- Sorting data based on a criteria.
+- Creating a functional search bar.
+- Light Mode/Dark Mode.
+- Error Components.
+- Designed CSS 404 Page.
 - Programmatically upload and store images on Cloudinary and adding the URL string to your database.
 - Integrate an external React package such as [React DnD](https://react-dnd.github.io/react-dnd/about) or [Styled Components](https://styled-components.com/) or some other package. (research carefully)
 - Use CSS Animations for your landing page and/or other views.
 - Use Chart.js or another package that will enhance the application.
-- Optionally, fetch and incorporate third party api data.
+- fetch and incorporate third party api data from the backend.
 
 ## Store App
 
