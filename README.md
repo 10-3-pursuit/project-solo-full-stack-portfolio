@@ -46,11 +46,11 @@ To complete the backend application, you will need to build a RESTful server tha
    - `NOT NULL`
    - `CHECK`
 1. A route exists to:
-   1. create new resources.
-   1. read all resources.
-   1. read a single resource.
-   1. update a single resource.
-   1. delete a single resource.
+   1. create a new resource
+   1. read all resources
+   1. read a single resource
+   1. update a single resource
+   1. delete a single resource
 1. An appropriate "Not Found" response is given when a route is requested that does not match the created routes.
 
 #### Frontend feature requirements
