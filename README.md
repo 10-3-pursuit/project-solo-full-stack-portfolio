@@ -65,7 +65,6 @@ To complete the frontend, you will need to build a React application that allows
 1. On the resource's Show view, there should be a button to edit the current resource. When clicked, the user is brought to a form view that includes the current data to be edited.
 1. When an edited resource form is submitted, the resource should be updated in the database and the app should navigate to the resource's Show view.
 1. On the resource's Show view, there should be a button to delete the current resource. When clicked, a message is displayed that asks the user if they are sure they want to delete the resource. If the user confirms, the resource is deleted and the user is brought to the Index view.
-1. Using the resource's data, perform a calculation or create a useful feature (e.g., sort, filter, infinite-scroll) that can be performed on the frontend application and displayed to the user that has not been demonstrated in class. e.g. if your app has a list of products, load the first 10 and when the user scrolls to the bottom the next ten are loaded. Your sort or filter feature may take more than one argument and/or include being able to sort in ascending or descending order.
 
 ### Stretch goals
 
