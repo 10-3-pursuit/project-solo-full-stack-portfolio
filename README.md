@@ -26,7 +26,7 @@ After approval from your instructors, follow the specifications below to create 
 
 #### Additional Requirements
 
-1. Both the frontend and backend applications should be successfully deployed to the web.
+1. Both the frontend and backend should be successfully deployed to the web.
 1. Your frontend repository should have a `readme.md` file with setup instructions for your application.
    - Your readme should also include links to your backend GitHub repository, both of your deployed URLs.
 1. Your project should have a coherent theme and narrative.
