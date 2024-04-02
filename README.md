@@ -59,8 +59,8 @@ To complete the frontend, you will need to build a React application that allows
 
 1. All pages should include the same navigation bar, which displays the name of the application and a button to create a new resource.
 1. You should have an Index page that presents all of the resources in your database table.
-1. After clicking on a single resource, you should be brought to a Show page which includes more detailed information about the specific resource.
-1. When the button in the navigation bar to create a new resource is clicked, you should be brought to a new page that includes a form to create a new resource.
+1. After clicking on a single resource, the app should navigate to a Show page which includes more detailed information about the specific resource.
+1. When the button in the navigation bar to create a new resource is clicked, the app should navigate to a new page that includes a form to create a new resource.
 1. Forms should be properly labeled and the type of inputs should be properly set. For example, an input that requires a number should have type number, not text.
 1. When a new resource form is submitted, the resource should be created in the database and the user should be brought to that new resource's Show page.
 1. On the resource's Show page, there should be a button to edit the current resource. When clicked, the user is brought to a form page with data already filled in that can be edited.
