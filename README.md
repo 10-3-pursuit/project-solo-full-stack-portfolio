@@ -41,7 +41,10 @@ To complete the backend application, you will need to build a RESTful server tha
    - A primary key.
    - At least 7 total fields.
    - At least 4 different data types are used among those fields.
-1. Your table should have at least two constraints, which can include `DEFAULT` values.
+1. Your table should have at least two constraints, which can include (e.g.):
+   - `DEFAULT`
+   - `NOT NULL`
+   - `CHECK`
 1. A route exists to:
    1. create new resources.
    1. read all resources.
