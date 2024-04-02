@@ -60,7 +60,7 @@ To complete the frontend, you will need to build a React application that allows
 1. You should have an Index view that presents all of the resources in your database table.
 1. After clicking on a single resource, the app should navigate to a Show view which includes more detailed information about the specific resource.
 1. When the new resource button in the navigation bar is clicked, the app should navigate to a view that includes a form.
-1. Forms should be properly labeled and the type of inputs should be properly set. For example, an input that requires a number should have type number, not text.
+1. Inputs should include labels with coinciding values for `htmlFor` amd`id` and type attribute should represent the data type of the input. e.g. number
 1. When a new resource form is submitted, the resource should be created in the database and the user should be brought to the Show view for that resource.
 1. On the resource's Show view, there should be a button to edit the current resource. When clicked, the user is brought to a form view with data already filled in that can be edited.
 1. When an edited resource form is submitted, the resource should be edited in the database and the user should be brought to that existing resource's Show view.
