@@ -24,7 +24,7 @@ Please choose one of two options:
 
 After approval from your instructors, follow the specifications below to create your application.
 
-#### Overall requirements
+#### Additional Requirements
 
 1. Both the frontend and backend applications should be successfully deployed to the web.
 1. Your frontend repository should have a `readme.md` file with setup instructions for your application.
