@@ -8,7 +8,7 @@ To complete this project, you will need to build a full-stack application that m
 
 ## Getting started
 
-_Do not_ fork this repository.
+**Do Not** fork this repository.
 
 Please choose one of two options:
 
