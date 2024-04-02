@@ -69,7 +69,7 @@ To complete the frontend, you will need to build a React application that allows
 
 #### Differentiation goals
 
-This section of the project measures your ability to go above and beyond. To score points in this section, you should incorporate two features, technologies, or skills not explicitly required by the instructions.
+This portion of the project measures your ability to go above and beyond and differentiate yourself from other programmers. To score points, you should incorporate two features, technologies, or skills not explicitly required by these instructions.
 
 _Make sure to include a description of any differentiating features you implemented inside your readme.md._ You may choose from the list below or come up with features or tasks that are more relevant to your specific implementation of the project.
 
