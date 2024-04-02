@@ -78,8 +78,8 @@ _Make sure to include a description of any differentiating features you implemen
 - CSS Framework such as Bootstrap or Tailwind
 - Favorites Feature
 - Filtering and showing results by subject e.g. genres, tags, favorites, items in cart
-- Sorting some data
-- Searching for data
+- Sorting data based on a criteria
+- Creating a functional search bar
 - Light Mode/Dark Mode
 - Error Components
 - Designed CSS 404 Page
