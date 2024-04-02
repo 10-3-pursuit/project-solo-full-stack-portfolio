@@ -1,6 +1,6 @@
 # Full-stack Portfolio Project
 
-<img src="./assets/idea.png" width="500" height="500">
+<img src="./assets/idea.png" width="400" height="400">
 
 This project is designed to challenge all of the skills you've learned so far. By the end of this project, you should have a portfolio-ready project you can share on your resume as well as with potential employers.
 
