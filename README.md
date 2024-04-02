@@ -14,20 +14,20 @@ Please choose one of two options:
 
 1. If you would like to use login and logout authentication functionality, `fork` and `clone` the [jwt-auth-backend](https://github.com/10-3-pursuit/jwt-auth-backend) and [jwt-auth-frontend](https://github.com/10-3-pursuit/jwt-auth-frontend) into a parent folder. These will serve as your repos.
 
-1. If you are not using authentication then `fork` and `clone` the [express-server-starter-db](https://github.com/10-3-pursuit/express-server-starter-db) and the [react-basic-starter](https://github.com/10-3-pursuit/react-basic-starter/tree/main)
+1. If you are not using authentication then `fork` and `clone` the [express-server-starter-db](https://github.com/10-3-pursuit/express-server-starter-db) and the [react-basic-starter](https://github.com/10-3-pursuit/react-basic-starter/tree/main).
 
-1. Choose a differentiating idea for your application
+1. Choose a differentiating idea for your application.
 
-1. Create User Stories
+1. Create User Stories.
 
-1. Create an ERD of your application
+1. Create an ERD of your application.
 
-After apporval from your instructors, follow the specifications below to create your application.
+After approval from your instructors, follow the specifications below to create your application.
 
 #### Overall requirements
 
 1. Create a GitHub repository for both the frontend and backend applications and upload your code to it.
-1. Create an ERD for your table(s)
+1. Create an ERD for your table(s).
 1. Both the frontend and backend applications should be successfully deployed to the web.
 1. Your frontend repository should have a `readme.md` file with setup instructions for your application.
    - Your readme should also include links to your backend GitHub repository, both of your deployed URLs.
@@ -38,9 +38,9 @@ After apporval from your instructors, follow the specifications below to create 
 To complete the backend application, you will need to build a RESTful server that performs CRUD actions on a single resource.
 
 1. Your server should incorporate at least one table that includes:
-   - A primary key
-   - At least 7 total fields
-   - At least 4 different data types are used among those fields
+   - A primary key.
+   - At least 7 total fields.
+   - At least 4 different data types are used among those fields.
 1. Your table should have at least two constraints, which can include `DEFAULT` values.
 1. A route exists to:
    1. create new resources.
