@@ -57,15 +57,15 @@ To complete the backend application, you will need to build a RESTful server tha
 
 To complete the frontend, you will need to build a React application that allows for CRUD operations to be performed on a single resource. You will also need to display the data _thoughtfully_ and _clearly_.
 
-1. All pages should include the same navigation bar, which displays the name of the application and a button to create a new resource.
-1. You should have an Index page that presents all of the resources in your database table.
-1. After clicking on a single resource, the app should navigate to a Show page which includes more detailed information about the specific resource.
-1. When the button in the navigation bar to create a new resource is clicked, the app should navigate to a new page that includes a form to create a new resource.
+1. All views should include the same navigation bar, which displays the name of the application and a button to create a new resource.
+1. You should have an Index view that presents all of the resources in your database table.
+1. After clicking on a single resource, the app should navigate to a Show view which includes more detailed information about the specific resource.
+1. When the button in the navigation bar to create a new resource is clicked, the app should navigate to a view that includes a form to create a new resource.
 1. Forms should be properly labeled and the type of inputs should be properly set. For example, an input that requires a number should have type number, not text.
-1. When a new resource form is submitted, the resource should be created in the database and the user should be brought to that new resource's Show page.
-1. On the resource's Show page, there should be a button to edit the current resource. When clicked, the user is brought to a form page with data already filled in that can be edited.
-1. When an edited resource form is submitted, the resource should be edited in the database and the user should be brought to that existing resource's Show page.
-1. On the resource's Show page, there should be a button to delete the current show page. When clicked, a message is displayed that asks the user if they are sure they want to delete the resource. If the user confirms, the resource is deleted and the user is brought to the Index page.
+1. When a new resource form is submitted, the resource should be created in the database and the user should be brought to that new resource's Show view.
+1. On the resource's Show view, there should be a button to edit the current resource. When clicked, the user is brought to a form view with data already filled in that can be edited.
+1. When an edited resource form is submitted, the resource should be edited in the database and the user should be brought to that existing resource's Show view.
+1. On the resource's Show view, there should be a button to delete the current show view. When clicked, a message is displayed that asks the user if they are sure they want to delete the resource. If the user confirms, the resource is deleted and the user is brought to the Index view.
 1. Using the resource's data, perform a calculation or create a useful feature (e.g., sort, filter, infinite-scroll) that can be performed on the frontend application and displayed to the user that has not been demonstrated in class.
    - For example, if your app has a list of products, load the first 10 and when the user scrolls to the bottom the next ten are loaded. Your sort or filter feature may take more than one argument and/or include being able to sort in ascending or descending order.
 
@@ -79,7 +79,7 @@ When you submit your pull request, _make sure to include a description of any st
 - Add a one-to-many table relationship to your database.
 - Create middleware as part of your backend application that validates for particular values when a resource is being created or updated.
 - Use query parameters to filter your resource by different fields or qualities.
-- When viewing all resources, break up your resources visually onto multiple pages.
+- When viewing all resources, break up your resources visually onto multiple views.
 - Visually allow for interacting with a second resource from the frontend.
 - Allow for a list of "favorite" resources that are stored locally through [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
 - Make your application responsive to different kinds of devices.
