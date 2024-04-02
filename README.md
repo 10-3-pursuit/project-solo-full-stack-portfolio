@@ -57,7 +57,7 @@ To complete the backend application, you will need to build a RESTful server tha
 
 To complete the frontend, you will need to build a React application that allows for CRUD operations to be performed on a single resource. You will also need to display the data _thoughtfully_ and _clearly_.
 
-1. All pages should include the same navigation bar, which includes the name of the application and a button to create a new resource.
+1. All pages should include the same navigation bar, which displays the name of the application and a button to create a new resource.
 1. You should have an Index page that presents all of the resources in your database table.
 1. After clicking on a single resource, you should be brought to a Show page which includes more detailed information about the specific resource.
 1. When the button in the navigation bar to create a new resource is clicked, you should be brought to a new page that includes a form to create a new resource.
