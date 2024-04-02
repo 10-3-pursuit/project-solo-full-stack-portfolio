@@ -26,8 +26,6 @@ After approval from your instructors, follow the specifications below to create 
 
 #### Overall requirements
 
-1. Create a GitHub repository for both the frontend and backend applications and upload your code to it.
-1. Create an ERD for your table(s).
 1. Both the frontend and backend applications should be successfully deployed to the web.
 1. Your frontend repository should have a `readme.md` file with setup instructions for your application.
    - Your readme should also include links to your backend GitHub repository, both of your deployed URLs.
