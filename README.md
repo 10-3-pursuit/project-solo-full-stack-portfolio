@@ -26,15 +26,29 @@ Please choose one of two options:
 
 After approval from your instructors, follow the specifications below to create your application.
 
-#### Additional Requirements
+## Requirements
 
-1. Both the frontend and backend should be successfully deployed to the web.
-1. Your frontend repository should have a `readme.md` file with setup instructions for your application. Your readme should also include links to your backend GitHub repository, both of your deployed URLs.
-1. Your project should have a coherent theme and narrative.
+### Pre-Coding
 
-#### Backend feature requirements
+Before beginning to code, you must present your project proposal, scope and ERD to an instructor for approval. Your project should have a coherent theme and narrative.
 
-To complete the backend application, you will need to build a RESTful server that performs CRUD actions on a single resource.
+### Readme.md
+
+Your frontend repository should have a `readme.md` file with setup instructions for your application. Your readme should also include links to your backend GitHub repository and both of your deployed URLs.
+
+### Presentation
+
+You will have a maximum of 6 minutes to present your projet to the cohort.
+
+### Deploy:
+
+- Frontend using netlify.com
+- Backend on render.com.
+- Database using ElephantSQL and Postico
+
+### Backend Server
+
+To complete the backend, you will need to build a RESTful server that performs CRUD actions on a single resource.
 
 1. Your server should incorporate at least one table that includes:
    - A primary key.
@@ -52,9 +66,9 @@ To complete the backend application, you will need to build a RESTful server tha
    1. delete a single resource
 1. An appropriate "Not Found" response is given when a route is requested that does not match the created routes.
 
-#### Frontend feature requirements
+#### Frontend Client
 
-To complete the frontend, you will need to build a React application that allows for CRUD operations to be performed on a single resource. You will also need to display the data _thoughtfully_ and _clearly_.
+To complete the frontend, you will need to build a React frontend that allows for CRUD operations to be performed on a single resource. You will also need to display the data _thoughtfully_ and _clearly_.
 
 1. Use of React Router 6.2.1 is required
 1. All views should include the same navigation bar, which displays the name of the application and a button to create a new resource.
@@ -89,8 +103,8 @@ _Make sure to include a description of any differentiating features you implemen
 - Use Chart.js or another package that will enhance the application.
 - fetch and incorporate third party api data from the backend.
 
-## Store App
+## Alternative Application Idea
 
-If you are struggling to find an idea, you are welcome to create an [Online Store App](./README_STORE_APP.md).
+If you are unable to think of a unique idea, please create an [Online Store App](./README_STORE_APP.md) based on the instructions.
 
 Good Luck. You Got This!
