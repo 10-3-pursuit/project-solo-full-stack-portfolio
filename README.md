@@ -105,6 +105,6 @@ _Make sure to include a description of any differentiating features you implemen
 
 ## Alternative Application Idea
 
-If you are unable to think of a unique idea, please create an [Online Store App](./README_STORE_APP.md) based on the instructions.
+If you are unable to think of a unique idea, please read the instructions and create an [Online Store App](./README_STORE_APP.md).
 
 Good Luck. You Got This!
