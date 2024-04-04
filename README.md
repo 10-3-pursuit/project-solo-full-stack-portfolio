@@ -38,7 +38,7 @@ Your frontend repository should have a `readme.md` file with setup instructions 
 
 ### Presentation
 
-You will have a maximum of 6 minutes to present your projet to the cohort.
+You will have a maximum of 6 minutes to present your project to the instructors & cohort.
 
 ### Deploy:
 
